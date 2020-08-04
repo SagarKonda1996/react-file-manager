@@ -1,0 +1,25 @@
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.listitem{
+color: blue;
+
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.listitem_disabled{
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+    opacity: 0.5;
+
+}

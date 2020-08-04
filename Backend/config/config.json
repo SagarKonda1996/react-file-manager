@@ -1,0 +1,18 @@
+{
+    "mongourl":"MONGODBURL HERE",
+    "headers":{
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Max-Age": "3600",
+        "Access-Control-Allow-Credentials": "true",
+        "Content-Type": "application/json"
+    },
+    "bucket":"GOOGLE CLOUD STORAGE BUCKET NAME HERE",
+    "collection_name":"COLLECTION NAME IN MONGODB HERE",
+    "corsheaders":{
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Max-Age": "3600",
+        "Access-Control-Allow-Credentials": "true"
+    }
+}
